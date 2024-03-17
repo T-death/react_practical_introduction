@@ -1,42 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import MyHello from './chap3/MyHello';
+import EventBasic from './chap3/EventBasic';
+import StateBasic from './chap3/StateBasic';
+import books from './chap3/books';
+import ForList from './chap3/ForList';
+import ForFilter from './chap3/ForFliter';
+import ForSort from './chap3/ForSort';
+import ForNest from './chap3/ForNest';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const content = `<h3>WINGSのプロジェクト</h3>
-  <img src="https://wings.msn.to/image.wings.jpg" />`
-const dest = 'https://ja.react.dev';
-root.render(
-  // <>
-  //   <p>Tom &amp; Jerry</p>
-  //   <p>{'Tom &amp; Jerry'}</p>
-  // </>
-  // <ul>
-  //   <li>{String(true)}</li>
-  //   <li>{false}</li>
-  //   <li>{undefined}</li>
-  //   <li>{null}</li>
-  //   <li>{0}</li>
-  // </ul>
-  <a href={dest}>React本家サイト</a>
-)
+const myProps = {myName: "T", favFood: "りんご", favNumber: 17};
+
 // root.render(
-//   <>
-//     <p>こんにちは、世界！</p>
-//     <p>はじめまして、React!!</p>
-//   </>
-//   // <React.StrictMode>
-//   //   <App />
-//   // </React.StrictMode>
+//   // <MyHello myName='T' favFood='りんご' favNumber={17} />
+//   <MyHello {...myProps} />
 // );
 
-// setInterval(() => {
-//   root.render(
-//     <p>現在時刻：{(new Date()).toLocaleString()}</p>
-//   );
-// }, 1000)
+// root.render(
+//   <EventBasic type />
+// );
+
+// root.render(
+//   <StateBasic />
+// );
+
+root.render(
+  <ForNest src={books} />
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

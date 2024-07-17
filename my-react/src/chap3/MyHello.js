@@ -1,9 +1,13 @@
-export default function MyHello({myName, favFood, favNumber}) {
-    return (
-        <>
-            <p>こんにちは、{myName}さん！</p>
-            <p>あなたの好きな食べ物は、{favFood}ですね！</p>
-            <p>すきな数字は、{favNumber}ですね！</p>
-        </>
-    )
+import PropTypes from 'prop-types'
+
+function MyHello(props) {
+  return (
+    <div>こんちは、{props.myName}さん</div>
+  );
 }
+
+MyHello.propTypes = {
+  myName: PropTypes.string.isRequired
+};
+
+export default MyHello;

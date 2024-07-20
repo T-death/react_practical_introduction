@@ -20,5 +20,6 @@
 * useStateは`e.target.~`で、useRefは`e.currnet.~`、独自データ属性は`e.target.dataset.~`って理解で良い？
 
 ## 5章　コンポーネント開発（応用）
+* importするときは、''はコンポーネント、""は関数なのかも
 
-P218から続きやる
+P228から続きやる

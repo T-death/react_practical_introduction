@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import FormBasic from './chap4/FormBasic';
+import ThrowResult from './chap5/ThrowResult';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <FormBasic />
+  <ThrowResult />
 );

@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ProfilerBasic from './chap5/ProfilerBasic';
+import PortalBasic from './chap5/PortalBasic';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ProfilerBasic />
+  <>
+    <div id="dialog"></div>
+    <PortalBasic />
+  </>
 );

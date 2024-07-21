@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ErrorRoot from './chap5/ErrorRoot';
+import MaterialMode from './chap6/MaterialMode';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ErrorRoot />
+  <MaterialMode />
 );

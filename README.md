@@ -25,5 +25,7 @@
 * cssでの装飾は、一般的にはコンポーネント単位でローカルでやるのが望ましい
 
 ## 6章　Reactライブラリの活用 main
+* [MUIマテリアルアイコンのページ](https://mui.com/material-ui/material-icons/)
+* [MUIテーマカラークリエイター](https://bareynol.github.io/mui-theme-creator/)
 
-P266から続きやる
+P312から続きやる

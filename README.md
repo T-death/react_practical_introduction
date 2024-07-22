@@ -24,8 +24,12 @@
 * コンポーネントを表す関数はパスカルケース、処理を表す関数はキャメルケース
 * cssでの装飾は、一般的にはコンポーネント単位でローカルでやるのが望ましい
 
-## 6章　Reactライブラリの活用 main
+## 6章　Reactライブラリの活用　Done
 * [MUIマテリアルアイコンのページ](https://mui.com/material-ui/material-icons/)
 * [MUIテーマカラークリエイター](https://bareynol.github.io/mui-theme-creator/)
+* P333
+    * React Queryを利用した、外部APIの使い方
 
-P312から続きやる
+## 7章　フックの活用
+
+P340から続きやる

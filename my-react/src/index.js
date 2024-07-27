@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { RecoilRoot } from 'recoil';
-import RecoilCounter from './chap7/RecoilCounter';
+import { RouterProvider } from 'react-router-dom';
+import routesLink from './chap8/routesLink'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <RecoilRoot>
-    <RecoilCounter />
-  </RecoilRoot>
+  <RouterProvider router={routesLink} />
 );
